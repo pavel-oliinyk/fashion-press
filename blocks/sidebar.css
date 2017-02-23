@@ -1,0 +1,67 @@
+.sidebar{
+	display: inline-block;
+	margin-top: 9px;
+	float: left;
+	border-right: 1px solid #bebebe;
+}
+.sidebar .redbox-aside{
+	background-color: #df1f26;
+	display: inline-block;
+}
+.sidebar .redbox-aside p{
+	color: #eeeeee;
+	font-size: 14px;
+	padding: 14px 127px 14px 14px;
+}
+.sidebar ul{
+	list-style-type: none;
+
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color: #333333;
+	font-size: 15px;
+	display: inline-block;
+	padding: 14px 0 14px 34px;
+	font-family: 'robotomed';
+	width: 100%;
+	transition: all 0.2s;
+	border-right: 5px solid transparent;
+	position: relative;
+}
+.sidebar ul li a:before{
+	content: '';
+	display: block;
+	position: absolute;
+	background: url(../images/arrows-ul.png)no-repeat;
+	height: 100px;
+	width: 13px;
+	top: 19px;
+	left: 13px;
+}
+.sidebar ul li a:hover{
+	background-color: #ffffff;
+	border-right: 5px solid #df1f26;
+}
+.sidebar ul li{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.clear{
+	clear: both;
+}
+.aside-map{
+	max-width: 220px;
+	height: 200px;
+	background: linear-gradient(to bottom, #e5e5e5, #eeeeee);
+	margin-top: 30px;
+	margin-left: 15px;
+	position: relative;
+}
+.aside-map img{
+	position: absolute;
+	display: block;
+	content: '';
+	top: 40px;
+}

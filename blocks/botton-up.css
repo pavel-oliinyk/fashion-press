@@ -1,0 +1,49 @@
+@keyframes arrow{
+  0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5); }
+  100% { bottom: 27px; box-shadow: 0 50px 50px rgba(0,0,0,0.1); }
+}
+.scrolltop{
+	 border: 1px solid transparent;
+	 width: 50px;
+	 height: 50px;
+	 background-color: transparent;
+	 border-radius:  50px;
+	 position: relative;
+	 cursor: pointer;
+	  position: fixed;
+  	right: 50px;
+ 	z-index: 1000;
+ 	bottom: 44px;
+ 	display: none;
+ 	transition: all .3s;
+}
+
+.scrolltop:before{
+	position: absolute;
+	background-image: url(../images/botton-up.png);
+	background-position: center;
+	background-size: cover;
+	animation: arrow 0.5s cubic-bezier(0.2,0.40,0.5,1) 0s 7 alternate both;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	width: 50px;
+	display:block;
+	content: '';
+	border-radius: 50px;
+
+}
+.scrowwlltop {
+ cursor: pointer;
+background-color: #000;
+display: inline-block;
+color: #fff;
+padding: 5px;
+border-radius: 3px;
+box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.15);
+position: fixed;
+right: 30px;
+bottom: 30px;
+transition: all .3s ease-in-out;
+z-index: 1000;
+}

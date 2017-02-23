@@ -1,0 +1,30 @@
+.arrows-block{
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+}
+
+.left-arrow{
+	content: "";
+	display: block;
+	width: 45px;
+	height: 45px;
+	bottom: 414px;
+	right: 1093px;
+	position: absolute;
+}
+ .left-arrow:hover{
+	transform: scale(0.8);
+}
+.right-arrow{
+	content: "";
+	display: block;
+	width: 45px;
+	height: 45px;
+	bottom: 414px;
+	left: 1093px;
+	position: absolute;
+}
+.right-arrow:hover{
+	transform: scale(0.8);
+}

@@ -1,0 +1,42 @@
+.red-left-button{
+	display: inline-block;
+	width: 23px;
+	height: 4px;
+	background-color: #d52229;
+	position: relative;
+	transition: all 0.2s;
+	margin-bottom: 8px;
+	margin-right: 15px;
+
+	
+}
+.red-left-button:before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 23px;
+	height: 4px;
+	background-color: #d52229;
+	top: 8px;
+	transition: all 0.2s;
+
+}
+.red-left-button:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 23px;
+	height: 4px;
+	background-color: #d52229;
+	bottom: 8px;
+	position: absolute;
+	transition: all 0.2s;
+}
+
+
+
+.block-buttons{
+	float: right;
+	display: inline-block;
+	margin-top: 9px;
+}

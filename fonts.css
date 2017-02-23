@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'MYRIADPRO';
+    src: url('../fonts/MYRIADPRO-REGULAR.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'opensanslight';
+    src: url('fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family:'robotomed';
+    src: url('fonts/RobotoMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

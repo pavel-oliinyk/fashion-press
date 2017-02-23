@@ -1,0 +1,9 @@
+.form-line{
+	width: 100%;
+	background-color: #deeaf1;
+	border-bottom: 1px solid #fdfdfd;
+}
+.form-block{
+	max-width: 960px;
+	margin: 0 auto;
+}

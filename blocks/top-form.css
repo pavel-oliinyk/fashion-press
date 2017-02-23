@@ -1,0 +1,43 @@
+.top-form{
+	display: inline-block;
+}
+.wrapper-form{
+	display: inline-block;
+	outline: none;
+	margin: 6px 0 6px 0;
+	position: relative;
+}
+.wrapper-form p{
+	display: inline-block;
+	float: left;
+	color: #df1f26;
+	font-size: 14px;
+	padding: 8px 16px 0 0;
+}
+.top-fieldset{
+	display: inline-block;
+	border: none;
+}
+.wrapper-form input{
+	width: 245px;
+	height: 29px;
+	border: none;
+	display: inline-block;
+	background-color: #c9c9c9;
+}
+.wrapper-form .submit{
+	width: 32px;
+	height: 25px;
+	border: none;
+	background:url(../images/lupa.png) no-repeat center;
+	cursor: pointer;
+
+}
+.wrapper-form span{
+	background-color: #df1f26;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}

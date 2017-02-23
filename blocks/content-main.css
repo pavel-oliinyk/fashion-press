@@ -1,0 +1,11 @@
+.content-main{
+	width: 100%;
+	background-color: #eeeeee;
+}
+.content-inner{
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #eeeeee;
+	overflow: hidden;
+	padding-bottom: 30px;
+}

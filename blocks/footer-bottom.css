@@ -1,0 +1,87 @@
+
+.footer-bottom{
+	max-width: 100%;
+	overflow: hidden;
+	background: url(../images/footer-bg.png);
+}
+.footer-bottom-in{
+	max-width: 960px;
+	margin: 0 auto;
+	background: url(../images/footer-bg.png);
+}
+.footer-bottom-in ul{
+		display: inline-block;
+		vertical-align: middle;
+}
+.footer-bottom-in ul li{
+	float: left;
+	margin-right: 17px;
+	
+}
+.footer-bottom-in ul li{
+	display: inline-block;
+	position: relative;
+}
+
+.footer-bottom-in ul li a{
+	color: #c3c3c3;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	transition: all 0.3s;
+	position: relative;
+	vertical-align: middle;
+	overflow: hidden;
+	z-index: 999;
+}
+
+.footer-bottom-in ul li:not(:first-child):before{
+	position: absolute;
+	display: block;
+	width: 2px;
+	height: 2px;
+	background-color: #c3c3c3;
+	top: 25px;
+	left: -8px;
+	content: '';
+}
+
+.footer-bottom-in ul li a:after{
+	content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+width: 0;
+height: 0;
+display: block;
+background-color: white;
+transition: all 0.3s;
+z-index: -1;
+vertical-align: middle;
+border-radius: 5px;
+
+}
+
+.footer-bottom-in ul li a:hover:after{
+top: 0;
+left: 0;
+color: black;
+width: 100%;
+height: 100%;
+}
+.footer-bottom-in ul li a:hover{
+color: black;
+
+}
+
+.footer-bottom-in p{
+	float: right;
+	font-size: 16px;
+	color: #7a7777;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+

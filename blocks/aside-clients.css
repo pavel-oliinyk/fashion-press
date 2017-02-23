@@ -1,0 +1,34 @@
+
+.aside-comment{
+	background: url(../images/grey-block-aside.png);
+	width: 221px;
+	height: 207px;
+}
+
+.aside-comment p{
+	padding: 21px 20px;
+	font-size: 13px;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	line-height: 21px;
+	color: #747474;
+
+}
+.aside-logo-men{
+	padding-left: 52px;
+	padding-top: 5px;
+	position: relative;
+	color: #333333;
+	font-size: 13px;
+	padding-bottom: 200px;
+}
+.aside-logo-men:before{
+	display: block;
+	content: "";
+	width: 27px;
+	height: 31px;
+	position: absolute;
+	background: url(../images/aside-logo-men.png);
+	left: 4px;
+	top: -5px;
+}

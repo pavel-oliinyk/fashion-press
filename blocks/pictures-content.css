@@ -1,0 +1,262 @@
+
+
+.products-row {
+ display: inline-block;
+}
+
+.product-wrapper {
+	display: inline-block;
+	margin-left: 2px;
+	margin-bottom: 6px;
+	transition: all 0.3s;
+}
+.product-wrapper:hover{
+	box-shadow:  0 0 10px 5px rgba(0, 0, 0, .2);
+}
+.pictures-content {
+	display:inline-block;
+	
+		max-width: 680px;
+		margin-top: 2px;
+		margin-left: 20px;
+	
+}
+.block-pic{
+	display: inline-block;
+	background-color: white;
+	padding: 6px 4px 0 4px;
+}
+.picture-static{
+	transition: all 0.3s;
+	max-width: 212px;
+	height: 202px;
+}
+.picture{
+	max-width: 212px;
+	height: 202px;
+	overflow: hidden;
+	position: relative;
+	
+
+}
+
+.picture-over{
+	position: absolute;
+	top: 100%;
+	transition: all 0.3s;
+
+
+	
+}
+.picture-over a{
+	padding: 10px;
+	position: absolute;
+	display: block;
+	opacity: 0.8;
+	background-color: white;
+	bottom: 20px;
+	right: 10%;
+	border-radius: 3px;
+	color: black;
+	font-size: 13px;
+	transition: 0.2s;
+	font-weight: bold;
+
+}
+.picture-over a:hover{
+	opacity: 0.6;
+}
+
+.block-pic:hover .picture-over{
+	position: absolute;
+	display: block;
+	content: "";
+	height: 202px;
+	max-width: 212px;
+	top: 0;
+	right: 40px;
+	opacity: 0.9;
+	transition: all 0.3s;
+}
+
+.text-picture {
+	font-size:13px;
+	display: block;
+	border-bottom: 1px solid #ededed;
+
+}
+.text-picture p{
+	max-width: 150px;
+	color: #565555;
+	padding-top: 13px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+}
+.price-buy{
+	display: inline-block;
+	height: 40px;
+}
+.price-picture{
+	padding: 8px 10px 6px 25px;
+	display: inline-block;
+	border-right: 1px solid #ededed;
+	position: relative;
+
+}
+.price-picture:before{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 5px;
+	background-color: #fff;
+	top: 0;
+	left: 77px;
+	position: absolute;
+}
+.price-picture:after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 5px;
+	background-color: #fff;
+	bottom: 0;
+	left: 77px;
+	position: absolute;
+}
+.get-it{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 130px;
+	margin-bottom: 13px;
+}
+.get-it a{
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+	padding: 5px 33px;
+	background-color: #d8262c;
+	border-radius: 5px;
+	box-shadow: inset 0px 0 7px -3px;
+	transition: all 0.2s;
+}
+.get-it a:hover{
+	 box-shadow: 0 3px 3px #575555 inset;
+	 padding: 4px 32px;
+	 font-size: 13px;
+}
+.picture2{
+	max-width: 420px;
+	height: 240px;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.3s;
+
+}
+.price-picture{
+	padding: 8px 10px 6px 25px;
+	display: inline-block;
+	border-right: 1px solid #ededed;
+	position: relative;
+
+}
+
+.picture2{
+	max-width: 442px;
+	height: 254px;
+	overflow: hidden;
+	position: relative;
+	transition: all 2s ease-in-out;
+
+}
+.price-buy2{
+	display: inline-block;
+	height: 40px;
+}
+.price-buy2 p{
+	display: inline-block;
+	padding: 12px 90px 8px 8px;
+}
+.block-pic2{
+	display: inline-block;
+	background-color: white;
+	padding: 6px 4px 0 4px;
+}
+.price-picture2{
+	padding: 8px 22px 6px 25px;
+	display: inline-block;
+	border-right: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	position: relative;
+}
+.get-it2{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 126px;
+	margin-bottom: 13px;
+}
+.get-it2 a{
+	display: inline-block;
+font-size: 14px;
+color: white;
+padding: 5px 33px;
+background-color: #d8262c;
+border-radius: 5px;
+box-shadow: inset 0px 0 7px -3px;
+transition: all 0.2s;
+}
+
+.get-it2 a:hover{
+	 box-shadow: 0 3px 3px #575555 inset;
+	 padding: 4px 32px;
+	 font-size: 13px;
+}
+
+.pictures-content h3{
+	font-size: 20px;
+	color: #000;
+	padding-top: 17px;
+	padding-bottom: 17px;
+
+}
+
+.pictures-content h3 span{
+	color: #e83d3d;
+}
+
+
+
+
+
+.rectangle{
+	position: relative;
+}
+.rectangle:before{
+	background: url(../images/rectangle.png);
+	display: block;
+	position: absolute;
+	width: 96px;
+	height: 122px;
+	content: "";
+}
+.rectangle-hot{
+	position: relative;
+}
+
+.rectangle-hot:before{
+	background: url(../images/hot.png);
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	content: "";
+	z-index: 50;
+}
+.pic-12{
+	position: relative;
+}
+.pic-12 img{
+	position: absolute;
+	right: 0;
+}
